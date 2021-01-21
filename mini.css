@@ -1,0 +1,110 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    background-color:rgb(20, 41, 136)
+    
+}
+
+.lista {
+    background-color: darkcyan;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+
+.lista a {
+    color:mediumblue;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px
+    
+}
+
+.lista a:hover {
+    color:rgb(219, 164, 11);
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+article {
+    position: relative;
+    left: 20em;
+    width: 40em;
+    height: 70%;
+    background-color: darkcyan;
+    padding: 30px;
+    margin: 2em;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    word-spacing: 3px;
+    border-radius: 15px;
+    color:rgb(34, 10, 88)
+    
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin: 0.5em;
+    color:mediumblue;
+}
+
+h2 {
+    margin: 1em;
+    color:mediumblue;
+}
+
+p {
+    text-indent: 4em;
+}
+
+table {
+    border-style: solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-width:5px;  
+    border-style:ridge;
+    border-color:slategrey;
+    margin-top: 2em;
+    
+}
+
+td {
+    border-width:5px;  
+    border-style:ridge;
+    padding: 0.2em;
+    text-align: center;
+    border-color:slategrey;
+}
+
+th {
+    border-width:5px;  
+    border-style:ridge;
+    border-color:slategrey;
+    color:rgb(94, 14, 160);
+    text-transform: uppercase;
+    padding: 0.2em;
+    width: 60%;
+}
